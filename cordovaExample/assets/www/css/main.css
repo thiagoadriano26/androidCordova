@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    font-family: "Calibri", Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    font-size: 13px !important;
+    min-width: 400px;
+    line-height: 16px;
+}
+
+
+
+
+.form-dados {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    /*max-width: 60% !important;*/
+}
+
+
+    input.placeholder {
+        text-align: center;
+    }
+
+input {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: bold;
+    border-collapse: separate;
+    border-spacing: 0 0px;
+}
+
+.result {
+    font-size: 13px;
+    line-height: 224%;
+}
+
+#info {
+    width: 20%;
+}
+
+
+
+
+#imcPeso {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    margin-bottom: 5px;
+    padding: 6px;
+}
+
+
+
+#result {
+    display: none;
+}
+
+#resultDetail {
+    display: none;
+    padding: 6px;
+    border-bottom: 1px solid silver;
+}
+
+#resultPesoIdeal {
+    padding: 6px;
+    display: none;
+    border-bottom: 1px solid silver;
+}
+
+#displayTMB {
+    font-size: 13px;
+    color: #333333;
+    padding: 6px;
+    display: none;
+    border-bottom: 1px solid silver;
+}
+
+    #displayTMB fieldset {
+        margin-left: -2%;
+    }
+
+#resultadoTMB {
+    display: none;
+    padding: 6px;
+    border-bottom: 1px solid silver;
+}
+
+
+#result .ui-grid-b .ui-block-a, .ui-grid-b .ui-block-b, .ui-grid-b .ui-block-c {
+    width: 33.333% !important;
+}
+
+.formato-div > .ui-grid-b .ui-block-a, .ui-grid-b .ui-block-b, .ui-grid-b .ui-block-c {
+    width: 64.25%;
+}
+
+#title {
+    margin-left: -2%;
+    width: 539px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+#normal .ui-block-c {
+    width: 98px !important;
+}
+
+#infoTMB {
+    display: none;
+    padding: 6px;
+    border-bottom: 1px solid silver;
+    text-align: justify;
+}
